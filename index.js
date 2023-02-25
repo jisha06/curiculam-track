@@ -9,7 +9,7 @@ const jwt = require("jsonwebtoken");
 const Multer = require('multer');
 const UserModel = require("./models/Users");
 const ReqModel = require('./models/requirement')
-const CurModel = require("./models/curriculum");
+const CurModel = require("./models/Curriculum");
 const SaveModel = require("./models/savecurriculum")
 const ErrorMessage = require("./config/errors");
 
